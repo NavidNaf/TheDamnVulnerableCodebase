@@ -1,5 +1,5 @@
 # Use the official PHP image with Apache
-FROM php:8.0-apache
+FROM php:8.4.11RC1-apache
 
 # Set the working directory
 WORKDIR /var/www/html
