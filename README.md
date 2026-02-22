@@ -8,6 +8,7 @@ This repository contains a collection of intentionally vulnerable applications w
 |------------|------------------|-------------------------------------------------------------------------|
 | 2025-03-07 | v1.0.0           | Initial release of vulnerable code in different languages.          |
 | 2025-03-08 | v1.0.1           | Fixed Python and PHP applications with vulnerable code. Added a Dockerfile for PHP. Added COMPARISON.md in the PHP and Python directories to compare Snyk and Semgrep findings. In future releases, all other directories will be updated.|
+| 2026-02-19 | v1.0.2           | Updated the C sample aligning it to C-specific memory safety and integer overflow vulnerabilities. |
 
 ## 📂 Directory Overview
 
@@ -16,7 +17,7 @@ The table below lists the available vulnerable applications and their associated
 | Language      | Vulnerabilities |
 |--------------|----------------|
 | **ASP.NET**  | SQL Injection, XSS, Command Injection, Plaintext Secrets |
-| **C**        | Buffer Overflow, SQL Injection |
+| **C**        | Out-of-Bounds Write, Out-of-Bounds Read, Use After Free, Improper Restriction of Operations within the Bounds of a Memory Buffer, NULL Pointer Dereference, Integer Overflow |
 | **C++**      | Buffer Overflow, Command Injection |
 | **C#**       | SQL Injection, XSS, Command Injection, Plaintext Secrets |
 | **Java**     | SQL Injection, XSS, Command Injection, Plaintext Secrets |
