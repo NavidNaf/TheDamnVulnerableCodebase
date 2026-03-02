@@ -6,6 +6,7 @@ This application is intentionally vulnerable and contains the following issues:
 - Cross-Site Scripting (XSS) vulnerability in the `/xss` endpoint
 - Command injection vulnerability in the `/command` endpoint
 - Cryptographic issues in `insecure_crypto.py`
+- Timing side-channel cryptographic weakness in `homomorphic.py`
 
 ## Installation
 
@@ -14,6 +15,12 @@ Run `pip install -r requirements.txt` to install dependencies.
 ## Running the Application
 
 Use `python app.py` to run the application.
+
+### Cryptography Samples
+
+- Run `python homomorphic.py` to execute the intentionally vulnerable homomorphic-style scheme.
+- `decrypt_vulnerable()` contains data-dependent branching and extra work, which can leak information through timing.
+- `decrypt_masked()` is included as a fixed-time comparison version.
 
 ### Accessing the Application
 

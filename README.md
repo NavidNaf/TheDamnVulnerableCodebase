@@ -12,7 +12,7 @@ This repository contains a collection of intentionally vulnerable applications w
 |------------|------------------|-------------------------------------------------------------------------|
 | 2025-03-07 | v1.0.0           | Initial release of vulnerable code in different languages.          |
 | 2025-03-08 | v1.0.1           | Fixed Python and PHP applications with vulnerable code. Added a Dockerfile for PHP. Added COMPARISON.md in the PHP and Python directories to compare Snyk and Semgrep findings. In future releases, all other directories will be updated.|
-| 2026-02-19 | v1.0.2           | Updated the C sample aligning it to C-specific memory safety and integer overflow vulnerabilities. Updated the Go sample to be a coherent intentionally vulnerable app with SQL Injection, XSS, Command Injection, Directory Traversal, Weak Randomness, Hostname Validation Bypass, Timing Side-Channel, ZIP Slip, and plaintext secrets. |
+| 2026-02-19 | v1.0.2           | Updated the C sample aligning it to C-specific memory safety and integer overflow vulnerabilities. Updated the Go sample to be a coherent intentionally vulnerable app with SQL Injection, XSS, Command Injection, Directory Traversal, Weak Randomness, Hostname Validation Bypass, Timing Side-Channel, ZIP Slip, and plaintext secrets. Updated the Python sample documentation to include the `homomorphic.py` timing side-channel crypto scheme and execution details. |
 
 ## 📂 Directory Overview
 
