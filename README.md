@@ -1,4 +1,8 @@
-# Vulnerable Code Samples
+<p align="center">
+  <img src="images/icon.png" alt="Vulnerable Code Samples Logo" width="140" />
+</p>
+
+# The Damn Vulnerable Codebase
 
 This repository contains a collection of intentionally vulnerable applications written in various programming languages. These samples are designed to demonstrate common security vulnerabilities for testing Static Application Security Testing (SAST) and Software Composition Analysis (SCA) tools.
 
