@@ -1,4 +1,4 @@
-<p align="left">
+<p align="center">
   <img src="images/icon.png" alt="Vulnerable Code Samples Logo" width="140" />
 </p>
 
